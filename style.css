@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Patrick+Hand+SC|Quicksand|Short+Stack');
+
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: 'Short Stack', cursive;
+  color: #4E6E58;
+  font-weight: lighter;
+  font-size: 60px;
+}
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: #C52233: lighter;
+  font-size: 8px;
+}
+a {
+  color: #FDFDFF;
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: none;
+  color: #F18805;
+}
+#banner{
+  text-align: center;
+  background-image: url("images/lukas-budimaier-93293-unsplash.jpg");
+  background-size: cover;
+  padding: 110px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  margin-bottom: 10px;
+}
+#banner h1 {
+  color: white;
+  font-size: 70px;
+}
+#banner h2 {
+  font-size: 30px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#bouton p {
+  text-align: center;
+}
+#footer{
+  padding: 10px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  font-family: 'Quicksand', sans-serif;
+}
+#card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#card-mask{
+  height: 70px;
+  z-index: 2;
+  position: relative;
+  top: -70px;
+  background-color: rgb(245,245,245);
+}
+#card-mask2{
+  height: 70px;
+  z-index: 2;
+  position: relative;
+  top: -70px;
+  background-color: rgb(245,245,245);
+}
