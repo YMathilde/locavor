@@ -29,7 +29,7 @@ a:hover {
   text-align: center;
   background-image: url("images/lukas-budimaier-93293-unsplash.jpg");
   background-size: cover;
-  padding: 110px;
+  padding: 90px;
   color: white;
   text-shadow: 1px 1px 5px black;
   margin-bottom: 10px;
@@ -52,26 +52,25 @@ a:hover {
 }
 #footer{
   padding: 10px;
-  background: rgb(30, 30, 30);
+  background: #5C8001;
   color: lightgrey;
   font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
 }
 #card{
   padding: 50px;
   font-weight: lighter;
 }
-
-#card-mask{
-  height: 70px;
+#card-mask-bottom{
+  height: 60px;
   z-index: 2;
   position: relative;
   top: -70px;
   background-color: rgb(245,245,245);
 }
-#card-mask2{
-  height: 70px;
-  z-index: 2;
-  position: relative;
-  top: -70px;
-  background-color: rgb(245,245,245);
+.catégorie{
+  margin-left: 30px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  text-align: center;
 }
