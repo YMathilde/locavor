@@ -11,18 +11,31 @@
   <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Quicksand" rel="stylesheet">
 </head>
 <body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+         <img id="logo-img" src="images/logopetitemarge.png">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#map" class="btn navbar-btn">Trouver un producteur</a></li>
+          <li><a href="#typeform-widget" class="btn navbar-btn">Faire connaître un producteur</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <div id="banner">
     <h1>Locavore</h1>
-    <h2>Trouvez les producteurs responsables près de chez vous</h2>
+    <h2>Trouver et faire découvrir les producteurs responsables près de chez soi</h2>
   </div>
-<div id="bouton">
-  <p>
-    <a href="H" class="btn btn-danger">Je fais mes courses</a>
-  </p>
-</div>
+
 <div id="card-mask-top"></div>
-<div id="carte">
-  <p><iframe width="100%" height="400" frameborder="0" scrolling="no" allowtransparency="true" src="https://mapalist.com/map/660291" ></iframe></p>
+<div id="map">
+  <p><iframe width="100%" height="400" frameborder="0" scrolling="no" allowtransparency="true" src="https://mapalist.com/map/660460" ></iframe></p>
 </div>
 <div id="card-mask-bottom"></div>
 
@@ -34,38 +47,38 @@
   <div class="row">
 
     <div class="col-xs-12 col-sm-6 col-md-6">
-      <div class="catégorie">
+      <div class="category">
         <p>
-          <a href="H"class="btn btn-warning">Légumes</a>
+          <a href="H" class="btn btn-default">Légumes</a>
         </p>
         <img src="images/légumesmieux.png" width="150">
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-6 col-md-6">
-      <div class="catégorie">
+      <div class="category">
         <p>
-          <a href="H"class="btn btn-warning">Fruits</a>
-          <img src="images/boulangerie.png" width="150">
+          <a href="H" class="btn btn-default">Fruits</a>
         </p>
+        <img src="images/assemblagefruits.png" width="150">
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-6 col-md-6">
-      <div class="catégorie">
+      <div class="category">
         <p>
-          <a href="H"class="btn btn-warning">Pain et pâtisserie</a>
-           <img src="images/boulangerie.png" width="150">
+          <a href="H" class="btn btn-default">Pain et pâtisserie</a>
         </p>
+        <img src="images/boulangerie.png" width="150">
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-6 col-md-6">
-      <div class="catégorie">
+      <div class="category">
         <p>
-          <a href="H"class="btn btn-warning">Viande et poisson</a>
-          <img src="images/boulangerie.png" width="150">
+          <a href="H" class="btn btn-default">Viande et poisson</a>
         </p>
+        <img src="images/poissonassemblagedeux.png" width="150">
       </div>
     </div>
 
@@ -74,26 +87,32 @@
     </div>
 
     <div class="col-xs-6">
-      <div class="typeform-widget" data-url="https://claudiadutrieux.typeform.com/to/Co4oAA" style="width: 100%; height: 250px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Co4oAA&utm_source=typeform.com-11889337-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+      <div id="typeform-widget" data-url="https://claudiadutrieux.typeform.com/to/Co4oAA" style="width: 100%; height: 400px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Co4oAA&utm_source=typeform.com-11889337-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
 
     </div>
 
   </div>
 </div>
 
-
-
-
-
+<div id="explications">
+  <h3><strong>Qui sommes-nous ?</strong></h3>
+  <p>Nous sommes quatre étudiantes. En arrivant à Nantes, nous avons constaté qu’il était difficile de trouver les producteurs locaux qui vendaient directement leurs bons produits. Et c’est là que tout a commencé ! Lors d'un séminaire, nous nous sommes rencontrées et nous avons eu l'idée de créer Locavore pour recenser les producteurs et les trouver grâce à une carte interactive.
+</p>
+  <h3><strong>Pourquoi Locavore ?</strong></h3>
+  <p>Vous êtes assuré de consommer des produits de bonne qualité qui respectent l'environnement, tout en soutenant les producteurs de votre région. Vous encouragez la production locale en vous nourrissant mieux.</p>
+  <h3><strong>Avec qui travaillons-nous ?</strong></h3>
+  <p>Nous travaillons avec des producteurs locaux que nous avons sélectionnés pour leur démarche responsable. Les producteurs partenaires s'engagent à être transparents sur leur production. De notre côté, nous nous engageons à ne pas les mettre en concurrence déloyale afin d'assurer leur pérennité.
+</p>
+</div>
 
   <div id="footer">
     <p>Locavore© tous droits réservés</p>
-    <ul>
-  <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-  <li><a href="#"><i class="fa fa-github"></i></a></li>
-</ul>
+    <ul class="list-inline">
+      <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+      <li><a href="https://www.facebook.com/alliancelocavore/"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fa fa-github"></i></a></li>
+    </ul>
   </div>
 </body>
 </html>
