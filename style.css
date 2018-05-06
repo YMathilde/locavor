@@ -1,107 +1,96 @@
-@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Patrick+Hand+SC|Quicksand|Short+Stack');
+/* commentaires 
 
-body{
-  background: rgb(245,245,245);
-  color: green;
-  font-size: 25px;
-  font-family: Helvetica;
+on peut appeler des classes en écrivant leur nom en tant que balise
+pour appeler un id le faire précéder de #
+pour appeler toutes les balises : *
+
+h1 em : selectionne toutes les balises em contenues dans h1
+h2 + p : selectionne le premier p après les h2
+
+a[title] : tous les a (liens) qui ont un attribut title (infobulle)
+a[title="nom"] : contiennent le mot nom exactement
+a[title*="nom"] : continent le mot nom 
+
+font-family: police1, police2, police3, police4; //conseillé d'indiquer 3/4 polices pour être sûr qu'une fonctionne
+
+font-style : italic/oblique/normal;
+font-weight : bold/normal; mettre en gras
+text-decoration : underline/line-through/overligne/blink/none;
+text-align : left/right/center/justify; ne fonctionne que sur des balises de type bloc ! p, div, h
+
+faire flotter une image :
+.nomimage
+{
+float : right/left;
 }
-h1{
-  font-family: 'Short Stack', cursive;
-  color: #4E6E58;
-  font-weight: lighter;
-  font-size: 60px;
+
+
+pour arrêter le flottant :
+.nombalisetexte
+{
+clear : left/right/both;
 }
-h2 {
-  font-family: 'Quicksand', sans-serif;
-  color: #C52233: lighter;
-  font-size: 8px;
+
+couleurs : méthode RGB ou méthode héxadécimale
+https://www.webpagefx.com/web-design/color-picker/00b035
+
+*/
+
+h1
+{
+  color: #429114;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Julius Sans One', sans-serif;
 }
-/*a {
-  color: #FDFDFF;
+
+h2
+{
+  color: #FA7116;
+  font-size: 2em;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h3
+{
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 20px;
 }
-a:hover {
-  text-decoration: none;
-  color: #F18805;
-}*/
-a {
-  color: #FDFDFF;
-  font-size: 20px;
-}
-a:hover {
-  text-decoration: none;
-  color: #F18805;
-}
-#banner{
-  text-align: center;
-  background-image: url("images/lukas-budimaier-93293-unsplash.jpg");
-  background-size: cover;
-  padding: 90px;
-  color: white;
-  text-shadow: 1px 1px 5px black;
-  margin-bottom: 10px;
-}
-#banner h1 {
-  color: white;
-  font-size: 70px;
-}
-#banner h2 {
-  font-size: 30px;
-}
-#banner p {
-  color: white;
-  opacity: 0.8;
-  font-size: 30px;
-  font-weight: lighter;
-}
-#bouton p {
-  text-align: center;
-}
-#footer{
-  padding: 10px;
-  background: #5C8001;
-  color: lightgrey;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 12px;
-}
-#list-inline{
-  color: white;
-}
-#card{
-  padding: 50px;
-  font-weight: lighter;
-}
-#card-mask-bottom{
-  height: 60px;
-  z-index: 2;
-  position: relative;
-  top: -70px;
-  background-color: rgb(245,245,245);
-}
-.category{
-  text-align: center;
-  margin-bottom: 20px;
-}
-#explications{
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 20px;
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  color: #262626
-}
-h3{
-  font-size: 25px;
-}
-p{
-  font-size: 15px;
+
+h4
+{
+  font-family: 'Overlock', cursive;
+  font-size: 1em;
 }
 
-#logo-img{
-  height: 50px;
+p
+{
+    color: black;
+    font-size: 1em;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Overlock', cursive;
 }
 
-.navbar{
-  height: 80px;
+.titleproduct
+{
+  font-family: 'Overlock', cursive;
+}
+
+.pains, .legumes 
+{
+  float:left;
+}
+
+.weekorder
+{
+  border-bottom: grey outset;
+}
+
+body
+{
+  background-color: #EEEEEE;
 }

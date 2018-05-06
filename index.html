@@ -1,118 +1,103 @@
+<!-- déclare qu'on est en HTML5 -->
+<!DOCTYPE html>
 <html>
-<head>
-  <link href='style.css' rel='stylesheet'>
-  <meta charset="utf-8">
-  <title>Locavore</title>
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link href='style.css' rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Quicksand" rel="stylesheet">
-</head>
-<body>
-
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">
-         <img id="logo-img" src="images/logopetitemarge.png">
-        </a>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#map" class="btn navbar-btn">Trouver un producteur</a></li>
-          <li><a href="#typeform-widget" class="btn navbar-btn">Faire connaître un producteur</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <div id="banner">
-    <h1>Locavore</h1>
-    <h2>Trouver et faire découvrir les producteurs responsables près de chez soi</h2>
-  </div>
-
-<div id="card-mask-top"></div>
-<div id="map">
-  <p><iframe width="100%" height="400" frameborder="0" scrolling="no" allowtransparency="true" src="https://mapalist.com/map/660460" ></iframe></p>
-</div>
-<div id="card-mask-bottom"></div>
-
-
-<div class="container">
-  <div class="row">
+  <head>
+    <!-- Encodage : affichage accents, ... -->
+    <meta charset="utf-8">
+    <!-- indique le style à appliquer à la page -->
     
-    <div class="col-xs-6">
-  <div class="row">
+    <title>Fair Basket Audencia</title>
 
-    <div class="col-xs-12 col-sm-6 col-md-6">
-      <div class="category">
-        <p>
-          <a href="H" class="btn btn-default">Légumes</a>
-        </p>
-        <img src="images/légumesmieux.png" width="150">
-      </div>
-    </div>
+   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css" />
 
-    <div class="col-xs-12 col-sm-6 col-md-6">
-      <div class="category">
-        <p>
-          <a href="H" class="btn btn-default">Fruits</a>
-        </p>
-        <img src="images/assemblagefruits.png" width="150">
-      </div>
-    </div>
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Overlock" rel="stylesheet">
 
-    <div class="col-xs-12 col-sm-6 col-md-6">
-      <div class="category">
-        <p>
-          <a href="H" class="btn btn-default">Pain et pâtisserie</a>
-        </p>
-        <img src="images/boulangerie.png" width="150">
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-6">
-      <div class="category">
-        <p>
-          <a href="H" class="btn btn-default">Viande et poisson</a>
-        </p>
-        <img src="images/poissonassemblagedeux.png" width="150">
-      </div>
-    </div>
-
-  </div>
-
-    </div>
-
-    <div class="col-xs-6">
-      <div id="typeform-widget" data-url="https://claudiadutrieux.typeform.com/to/Co4oAA" style="width: 100%; height: 400px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=Co4oAA&utm_source=typeform.com-11889337-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
-
-    </div>
-
-  </div>
-</div>
-
-<div id="explications">
-  <h3><strong>Qui sommes-nous ?</strong></h3>
-  <p>Nous sommes quatre étudiantes. En arrivant à Nantes, nous avons constaté qu’il était difficile de trouver les producteurs locaux qui vendaient directement leurs bons produits. Et c’est là que tout a commencé ! Lors d'un séminaire, nous nous sommes rencontrées et nous avons eu l'idée de créer Locavore pour recenser les producteurs et les trouver grâce à une carte interactive.
-</p>
-  <h3><strong>Pourquoi Locavore ?</strong></h3>
-  <p>Vous êtes assuré de consommer des produits de bonne qualité qui respectent l'environnement, tout en soutenant les producteurs de votre région. Vous encouragez la production locale en vous nourrissant mieux.</p>
-  <h3><strong>Avec qui travaillons-nous ?</strong></h3>
-  <p>Nous travaillons avec des producteurs locaux que nous avons sélectionnés pour leur démarche responsable. Les producteurs partenaires s'engagent à être transparents sur leur production. De notre côté, nous nous engageons à ne pas les mettre en concurrence déloyale afin d'assurer leur pérennité.
-</p>
-</div>
-
-  <div id="footer">
-    <p>Locavore© tous droits réservés</p>
-    <ul class="list-inline">
-      <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-      <li><a href="https://www.facebook.com/alliancelocavore/"><i class="fa fa-facebook"></i></a></li>
-      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fa fa-github"></i></a></li>
+</head>
+   
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Fair Basket</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Qui sommes-nous ?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
     </ul>
   </div>
-</body>
+</nav>
+    <img src="images/fairbasketbannieresite.png" width="100%">
+
+    <h1><strong>Formulaire de commande</strong></h1>
+
+    <p>Vous pouvez commander vos paniers de légumes et autres produits bios et locaux sur plusieurs semaines ! <br/ >La distribution des produits a lieu chaque mardi midi de 12h30 à 13h45 sur le parking d'Audencia. Attention, il faut commander au plus tard le lundi à 12h30, pour que nous puissions informer les producteurs.</p>
+
+    <h2 class="weekorder">Mardi 15 mai 2018</h2>
+
+    <div class=container-fluid>
+      <div class="order">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <img src="images/legumes2.jpg" alt="legumes" width="100">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <h3>Légumes de Benjamin</h3>
+            <h4>Benjamin est maraîcher et produit des légumes bios dans les alentours de Nantes.</h4>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="titleproduct">
+              <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">Produit</div>
+              <div class="col-xs-4 col-sm-4 col-md-1 col-lg-1">Prix</div>
+              <div class="col-xs-4 col-sm-4 col-md-1 col-lg-1">Ajouter au panier</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class=container-fluid>
+      <div class="order">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <img src="images/pain.jpg" alt="pains" width="100">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <h3>Pains de Christine</h3>
+            <h4>Christine est boulangère, vit dans la périphérie nantaise et cuit ses pains 100% bios au feu de bois.</h4>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="titleproduct">
+              <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">Produit</div>
+              <div class="col-xs-4 col-sm-4 col-md-1 col-lg-1">Prix</div>
+              <div class="col-xs-4 col-sm-4 col-md-1 col-lg-1">Ajouter au panier</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <p>Pain de campagne</p>
+    <p>Pain aux céréales</p>
+
+    <h2 class="weekorder">Mardi 22 mai 2018</h2>
+    <p>Légumes de Benjamin</p>
+    <p>Pains de Christine</p>
+
+    <h2 class="weekorder">Mardi 29 mai</h2>
+    <p>Légumes de Benjamin</p>
+    <p>Pains de Christine</p>
+
+    <h2 class="weekorder">Mardi 5 juin</h2>
+    <p>Légumes de Benjamin</p>
+    <p>Pains de Christine</p>
+
+  </body>
 </html>
