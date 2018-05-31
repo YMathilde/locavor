@@ -39,49 +39,36 @@ https://www.webpagefx.com/web-design/color-picker/00b035
 h1
 {
   color: #429114;
-  font-size: 2.5em;
+  font-size: 40px;
   text-align: center;
-  margin-top: 0.5em;
+  margin-top: 1.5%;
   font-family: 'Julius Sans One', sans-serif;
 }
 
 h2
 {
   color: #FA7116;
-  font-size: 2em;
-  margin-left: 5em;
-  margin-right: 5em;
+  font-size: 30px;
   font-family: 'Julius Sans One', sans-serif;
 }
 
 h3
 {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 1,5em;
-  margin-left: 5em;
-  margin-right: 5em;
+  font-size: 20px;
 }
 
 h4
 {
-  font-size: 15px;
-  margin-right: 10em;
-  margin-left: 10em;
+  font-size: 16px;
 }
 
 p
 {
     color: black;
-    font-size: 1em;
-    margin-left: 10em;
-    margin-right: 10em;
+    font-size: 16px;
 }
 
-.titleproduct
-{
-  margin-left: 10em;
-  margin-right: 10em;
-}
 
 .pains, .legumes 
 {
@@ -93,7 +80,27 @@ p
   border-bottom: grey outset;
 }
 
+.sous-titre
+{
+  text-align: center;
+}
+
 body
 {
   background-color: #EEEEEE;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+header
+{
+  margin-right: -13%;
+  margin-left: -13%;
+}
+
+#footer
+{
+  padding: 10px;
+  background: #5C8001;
+  color: lightgrey;
+  font-size: 12px;
 }
